@@ -5,8 +5,6 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="baidu-site-verification" content="1qsM72nMzg" />
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -64,7 +62,7 @@
                             <a class="p-2  nav-link text-white" href="/products.html">产品中心</a>
                         </li>
                 <li class="nav-item">
-                            <a class="p-2 nav-link text-white" href="/?s=&category=9">技术中心</a>
+                            <a class="p-2 nav-link text-white" href="/?s=&category=information">技术中心</a>
                         </li>
                         <li class="nav-item ">
                             <a class="p-2  nav-link text-white" href="/contact_us.html">联系我们</a>

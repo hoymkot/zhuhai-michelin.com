@@ -439,13 +439,13 @@ function return_only_selected_category( $query ) {
   if ( is_search() && !is_admin() && $query->is_main_query() ){
     //有cat值传入
     if(isset($_GET['category'])){ 
-      $term_id = (int)$_GET['category']; //处理分类参数
+      $term_id = $_GET['category']; //处理分类参数
       if( $term_id ){
         //分类查询的参数
         $tax_query = array(
           array(
             'taxonomy'=>'category', //可换为自定义分类法
-            'field'=>'term_id',
+            'field'=>'name',
             'operator'=>'IN',
             'terms'=>array($term_id)
           )

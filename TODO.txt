@@ -1,0 +1,7 @@
+* commands for dev
+ git push origin master
+ git reset HEAD wp-config.php
+
+* commands for live
+ git pull origin master
+ cp -R * ../httpdocs/
