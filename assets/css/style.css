@@ -1,0 +1,39 @@
+footer nav ul li {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+footer nav {
+    padding: 1rem;
+}
+
+header nav ul li a{
+    color: red
+};
+
+main {
+    background-color: aqua;
+}
+html body{
+font-family: arial, 宋体, tahoma, sans-serif;
+    
+}
+a:hover {
+        text-decoration: none
+}
+
+article .entry-title {
+
+    font-size: 3rem;
+}
+
+article .entry-content p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+/*    font-size: 2rem;*/
+}
+
+article .entry-header {
+    margin: 50px;
+}
